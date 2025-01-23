@@ -25,7 +25,7 @@ sudo docker exec -i <container_name> psql -U <username> -d <database_name> < /pa
 ```
 
 
-#Base Docker Commands:
+# Base Docker Commands:
 
 Build Docker:
 ```
