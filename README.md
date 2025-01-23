@@ -23,3 +23,41 @@ psql -U <username> -d <database_name> -f /file_name.sql
 ```
 sudo docker exec -i <container_name> psql -U <username> -d <database_name> < /path/to/file_name.sql
 ```
+
+
+#Base Docker Commands:
+
+Build Docker:
+```
+sudo docker compose -p project_name -f docker_file_path.yml build
+```
+
+Up docker server:
+```
+sudo docker compose -p project_name -f docker_file_path.yml up -d
+```
+
+Down docker server:
+```
+sudo docker compose -p project_name down
+```
+
+Show docker containers:
+```
+sudo docker ps
+```
+
+Show docker all containers:
+```
+sudo docker ps -a
+```
+
+Restart docker container:
+```
+sudo docker compose -p project_name restart
+```
+
+
+
+
+
