@@ -1,6 +1,6 @@
 # Jack-Commands
 
-#Copy database:
+Copy database:
 Locate the PostgreSQL Container:
 ```
 sudo docker ps
