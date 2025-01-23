@@ -19,3 +19,7 @@ psql -U <username> -d <database_name> -f /jan21_dev_db.sql
 ```
 
 
+# Export sql File into DB:
+```
+docker exec -i <container_name> psql -U <username> -d <database_name> < /path/to/file_name.sql
+```
