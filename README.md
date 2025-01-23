@@ -1,6 +1,5 @@
-# Jack-Commands
+# Import Sql File into DB:
 
-Copy database:
 Locate the PostgreSQL Container:
 ```
 sudo docker ps
