@@ -59,5 +59,40 @@ sudo docker compose -p project_name restart
 
 
 
+# Install WiFi Driver
+
+Run the commands
+```
+sudo apt update
+```
+```
+sudo apt install dkms
+```
+```
+git clone https://github.com/aircrack-ng/rtl8812au.git
+```
+```
+cd rtl8812au
+```
+```
+sudo make dkms_install
+```
+
+Load the Driver
+```
+sudo modprobe 8812au
+```
+
+Check if WiFi is working
+```
+iwconfig
+```
+         OR 
+```
+nmcli device
+```
+
+
+
 
 
