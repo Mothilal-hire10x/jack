@@ -87,7 +87,6 @@ Check if WiFi is working
 ```
 iwconfig
 ```
-         OR 
 ```
 nmcli device
 ```
